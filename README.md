@@ -55,11 +55,12 @@ the high-value STARK freight that needs careful receiving and counting.
 
 ## Tools
 
-SQL (SQLite for now, PostgreSQL next)
+SQL · PostgreSQL 17 · pgAdmin
 
 ## Roadmap
 
 - [x] SQL analysis of ASN lines
+- [x] Load ASN data into PostgreSQL (asn_db)
 - [ ] PostgreSQL database: PO + ASN tables
 - [ ] Python pipeline: load and validate ASN data
 - [ ] Dashboard
